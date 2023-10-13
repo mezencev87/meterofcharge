@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87404650-d3e3-4fec-8deb-a926a0dcf0bf">
+  <name>СервисПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис приложения</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="977d7f32-df2f-465a-b549-fd30f9b5eda1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1364a435-954b-4274-bbd8-62e398e982cd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="94efc467-66b2-4a1c-9f83-63e020048144"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="11114621-57f5-4e6d-b6f4-f7aac51a2cc7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="085bb944-947f-4f54-89e5-761ab97d7f48"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ee27bf81-9c7b-4819-a773-24e7de23edfc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="015c6b27-69bc-4160-a47f-a097dae664f0"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="636670b8-19fa-4ea4-9d57-f50e56db6f95">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <styleItems>StyleItem.ВыделениеТекста</styleItems>
+  <styleItems>StyleItem.НетРамки</styleItems>
+  <styleItems>StyleItem.Примечание</styleItems>
+  <styles>Style.Основной</styles>
+  <commonPictures>CommonPicture.Вода</commonPictures>
+  <commonPictures>CommonPicture.ВывозМусора</commonPictures>
+  <commonPictures>CommonPicture.Газ</commonPictures>
+  <commonPictures>CommonPicture.ДвухзонныйСчетчик</commonPictures>
+  <commonPictures>CommonPicture.Отредактировано</commonPictures>
+  <commonPictures>CommonPicture.Прирост</commonPictures>
+  <commonPictures>CommonPicture.Уменьшение</commonPictures>
+  <commonPictures>CommonPicture.Электричество</commonPictures>
+  <commonModules>CommonModule.ОбменСервер</commonModules>
+  <commonModules>CommonModule.РаботаСДоставляемымиУведомлениям</commonModules>
+  <commonModules>CommonModule.РасчетыВызовСервера</commonModules>
+  <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
+  <xDTOPackages>XDTOPackage.ОбменДанными</xDTOPackages>
+  <webServices>WebService.MAExchange</webServices>
+  <constants>Constant.КлючДоступаОтправителя</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <catalogs>Catalog.Абоненты</catalogs>
+  <catalogs>Catalog.Адреса</catalogs>
+  <catalogs>Catalog.НаборыУслуг</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.ОтметкиСчетчика</documents>
+  <documents>Document.Прайс</documents>
+  <documents>Document.Расчет</documents>
+  <enums>Enum.PushУведомления</enums>
+  <enums>Enum.ВидыЦены</enums>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <enums>Enum.ЗоныСчетчика</enums>
+  <dataProcessors>DataProcessor.ДадатаПИР</dataProcessors>
+  <dataProcessors>DataProcessor.РегистрацияИзмененийДляОбменаДанными</dataProcessors>
+  <informationRegisters>InformationRegister.КорректировкиРасчетов</informationRegisters>
+  <informationRegisters>InformationRegister.РеестрУслугПоПоставщикам</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыЗаУслуги</accumulationRegisters>
+</mdclass:Configuration>

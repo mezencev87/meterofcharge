@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59606058-c021-4ed1-8022-49d0ea745a9b">
+  <name>ДвухзонныйСчетчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Двухзонный счетчик</value>
+  </synonym>
+</mdclass:CommonPicture>

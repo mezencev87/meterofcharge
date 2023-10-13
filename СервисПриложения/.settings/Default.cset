@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "settings": {
+    "module-region-empty": {
+      "enabled": false
+    },
+    "form-list-ref-user-visibility-enabled": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b9025d6-df39-4a64-9dee-69c849d86e48">
+  <producedTypes>
+    <refType typeId="c2cb4d99-f123-48b8-8d5a-48c624632dfb" valueTypeId="2d660e0c-4971-445c-b836-a97e2b2bd996"/>
+    <listType typeId="1ca94ee9-a144-4039-a361-af5c757d684f" valueTypeId="4679852e-a317-4f2e-a164-6c334535a66b"/>
+    <managerType typeId="3e3fbb40-de68-4529-a46d-6408d8623981" valueTypeId="cfb84802-f5b9-49e5-8422-6dc46547b5f3"/>
+  </producedTypes>
+  <name>ЗоныСчетчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны счетчика</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d97fb1d7-60aa-48e2-9256-67f0b54762cb">
+    <name>Дневная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a14c1a53-cfcb-4eb6-8342-6503b5d67644">
+    <name>Ночная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ночная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e047d2f-2118-452d-b971-0ba6c9187666">
+    <name>Пиковая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиковая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

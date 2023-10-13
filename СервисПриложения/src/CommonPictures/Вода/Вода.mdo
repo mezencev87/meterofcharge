@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae1db8f9-87b4-41bf-9861-1d6dfa38d4e0">
+  <name>Вода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вода</value>
+  </synonym>
+</mdclass:CommonPicture>

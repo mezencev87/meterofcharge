@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9afd18a-f0bc-4255-befc-7b281daafa90">
+  <producedTypes>
+    <objectType typeId="5c75cae8-8282-4648-8807-e4979f1efabb" valueTypeId="d1cb3676-20ae-4567-8a63-b31d0489a621"/>
+    <refType typeId="6ec1cca3-9880-410d-aa20-8e3a5b930556" valueTypeId="d339823b-c901-4c10-b1e0-f5c809dab913"/>
+    <selectionType typeId="ad1b5581-8435-4369-9ef7-84658cb2839b" valueTypeId="65886015-460c-4de1-9082-b60fccf7a875"/>
+    <listType typeId="3e4f6e97-5f60-487c-9b3a-1d8c03e5e171" valueTypeId="82f48447-f092-4948-a942-fa0957cdecac"/>
+    <managerType typeId="70b9454f-c7d6-4ea0-9921-5da9e6b65569" valueTypeId="3cfddb05-59ab-4cd4-9969-0804f35e0e72"/>
+  </producedTypes>
+  <name>Поставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Поставщики.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Поставщик</value>
+  </objectPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список поставщиков</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="97c13898-81b2-442a-b879-be4a362a20a9">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="01090bb4-4b16-46c0-ba39-67887e138662">
+    <producedTypes>
+      <objectType typeId="7b885cb1-987d-4fda-91c8-05b6e035686c" valueTypeId="678395f7-5ec5-42b1-83a3-b00073694618"/>
+      <rowType typeId="e043c0b9-3ef7-4230-8b10-8f78cf9d6179" valueTypeId="a4d70fea-a460-4af4-b187-96e7591ea59f"/>
+    </producedTypes>
+    <name>ОказываемыеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оказываемые услуги</value>
+    </synonym>
+    <attributes uuid="aad8a615-82ea-4168-a823-880c1af75cb4">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Услуги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="acee5afc-7df0-4c97-9c43-55fae72eb61a">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <comment>Учитываемая единица измерения</comment>
+      <type>
+        <types>EnumRef.ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

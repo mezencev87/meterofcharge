@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03aaa4a-dd14-4cf8-a223-31c29c2a37c0">
+  <producedTypes>
+    <objectType typeId="886bdcd5-aef9-4582-ad7a-7039190fe243" valueTypeId="44ec965f-e857-47fb-9f8b-c6f5e2fac578"/>
+    <refType typeId="2d76a4d6-d39e-4a51-849f-ede31355832b" valueTypeId="ac5b79a1-2a11-433b-8fe0-0127b16922ae"/>
+    <selectionType typeId="b5606ff4-861f-4454-82c5-4889c05e1fc8" valueTypeId="d2f07f36-fd31-4a55-bf2c-e40e4d8e1542"/>
+    <listType typeId="f5ed860c-5ca5-47b0-b5d3-fe52b766101b" valueTypeId="494a4dbe-0834-4f57-b477-98972ed6d8af"/>
+    <managerType typeId="f9248728-64af-4d42-a277-aef1b8a54477" valueTypeId="f55de015-b841-482a-ad60-e3bbbd2f86c8"/>
+  </producedTypes>
+  <name>ОтметкиСчетчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметки счетчика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтметкиСчетчика.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отметки счетчика</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>12</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОтметкиСчетчика.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОтметкиСчетчика.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.РасчетыЗаУслуги</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3af91051-9966-4f17-94f6-6eb901df8b98">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Адреса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9992bd90-4d5d-49e5-8b45-a12d7b1e3636">
+    <name>НаборУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ebda8c57-f46e-42f5-af47-76b91a1df326">
+    <name>СтрогийРежимОтметок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строгий режим отметок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac52ebb6-a8a0-457b-8895-2ebf5993dcf9">
+    <name>УведомленияВключены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомления включены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="382c3d3a-1799-4bd5-bf29-69103a45b41e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="909c0e83-d71d-411e-ad6a-32f31fab4404">
+    <name>ДобавлениеЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a88c0a6f-15a5-479c-b3da-01bd6e5114c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0db9d74c-9c2d-4471-bae6-2ccf057c1414">
+    <producedTypes>
+      <objectType typeId="39f92331-c4bc-4552-a766-807bd7ab327b" valueTypeId="d6efe628-3e39-4819-a1f4-5d220d03eb2b"/>
+      <rowType typeId="d8ba3b94-46e3-46c2-992d-6e581902ebac" valueTypeId="500d0c85-23ee-4b3b-b1e7-c3d7bd36e08c"/>
+    </producedTypes>
+    <name>Отметки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметки</value>
+    </synonym>
+    <attributes uuid="2d79c36f-7e75-4bd0-a4d0-c59d66fffe66">
+      <name>ВремяОтметки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время отметки</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b99d303-4975-40cd-b32a-26a9f8dd216a">
+      <name>ПредыдущиеПоказания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предыдущие показания</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b11506a-1a81-460d-928b-9b54143bd93f">
+      <name>ТекущиеПоказания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущие показания</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>7</precision>
+          <scale>1</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

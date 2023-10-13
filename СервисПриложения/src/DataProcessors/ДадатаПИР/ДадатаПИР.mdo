@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc8751f-da63-44ac-96ed-5bc579609e1c">
+  <producedTypes>
+    <objectType typeId="fc2c569c-ce26-4318-83a9-7ea0c3993130" valueTypeId="741f7c4d-57ec-4663-984b-acc74449552c"/>
+    <managerType typeId="a56970d7-eff5-4eba-8f7f-44692568c504" valueTypeId="1bd9c026-faf2-41ac-bfd5-3a9dc3fbc520"/>
+  </producedTypes>
+  <name>ДадатаПИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дадата ПИР</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d29f4656-444b-43d2-bba4-61e554180b70">
+  <producedTypes>
+    <refType typeId="c7491561-fdfe-4746-93d1-935f96b57829" valueTypeId="2b03da0c-d13b-43c2-a35d-218de833fe74"/>
+    <listType typeId="6870b88c-dd2b-4fa8-92ea-02248f268521" valueTypeId="97529558-c557-4933-9564-c4511182a00a"/>
+    <managerType typeId="d44b72a4-bba8-40ee-9691-904e07ce4837" valueTypeId="ab056334-e12b-4b78-a6fb-2468d38aabd1"/>
+  </producedTypes>
+  <name>ВидыЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="40742cec-a697-4cd7-868f-18d2967bc10f">
+    <name>Нормативная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по нормативу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68570a4a-3c64-48bf-8074-f96acfe9874b">
+    <name>Фактическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по факту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd24cf5d-8c64-4add-8ded-330e40bbbbe6">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

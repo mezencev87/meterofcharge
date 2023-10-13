@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80dd6341-7265-4974-a49a-6b7c749d95d3">
+  <producedTypes>
+    <objectType typeId="ad5a5d22-84c7-4c2e-8d1c-14bd652ff25f" valueTypeId="1e75924c-aec6-4298-84d4-61c790a03915"/>
+    <refType typeId="069a7ecb-14f5-452d-a3b3-5e4385472707" valueTypeId="a40f7b16-53be-4dbd-9dfb-04da9501e016"/>
+    <selectionType typeId="91b609c6-b4bb-4809-b04e-3bb53d55f56e" valueTypeId="76759374-c8e9-474d-8add-a44a0d626406"/>
+    <listType typeId="b15989f7-e1f4-4ce7-9443-f886415861cd" valueTypeId="9a6164b6-99d9-4c62-a5bb-2b0b5f59c88e"/>
+    <managerType typeId="ac20e6e1-edbe-4c55-b086-5aa61b4eb946" valueTypeId="1c73b03c-b949-41dd-bbba-2efa16206315"/>
+  </producedTypes>
+  <name>Абоненты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абоненты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Абоненты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Абоненты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Абонент</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

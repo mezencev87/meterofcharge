@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f967b187-7c97-4879-a4ed-90c64ac3a9f7">
+  <producedTypes>
+    <selectionType typeId="da15176d-e332-4b2b-8b60-3558fc748c78" valueTypeId="5ccb4b4b-6bc6-45e5-820c-18974aa587ec"/>
+    <listType typeId="f56913cc-b0c4-45bb-bab3-621227bf59cd" valueTypeId="fdb5f3a3-5fe3-41f5-ad6d-17ea80e6d3fe"/>
+    <managerType typeId="691d32c0-c5cf-4cc7-aea8-108b4d4114ae" valueTypeId="e519eb45-3faa-4d43-b543-203711528d18"/>
+    <recordSetType typeId="38fcb5e1-e02f-4b4c-b9d4-77b8a68acd4c" valueTypeId="fe098c9e-e199-4f1a-a547-d7b7f5f0beda"/>
+    <recordKeyType typeId="5eb15086-fe9b-4827-a5cb-5ab5901b9981" valueTypeId="94870175-7c4a-42e7-857f-8c5e46138f80"/>
+    <recordType typeId="5b55a75f-9f65-4ada-9294-af114cdee2c4" valueTypeId="d5f39435-1250-469e-9137-2cd406311ccf"/>
+    <recordManagerType typeId="604cb445-5fce-40e8-adf6-890e00633a48" valueTypeId="e5812262-204d-4614-a8c4-25c7b346f2ec"/>
+  </producedTypes>
+  <name>КорректировкиРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировки расчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал корректировок расчетов</value>
+  </listPresentation>
+  <resources uuid="45701af6-8769-4790-9f72-37107fb65fad">
+    <name>КоличествоПовторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество повторов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f8a78623-a6b2-4127-bb10-bc8222fc4360">
+    <name>Дельта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дельта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b1ca6629-96c7-42f3-9157-fdd0ae292343">
+    <name>МоментВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a1fa0d33-0f7a-49aa-ae0e-7f57c6b3d49e">
+    <name>НаборУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c7d2e674-8aa1-433b-9880-4ee136a8eab1">
+    <name>ДельтаПоказаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дельта показаний</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="db4360e0-ec10-4989-aa32-630959758ac9">
+    <name>ДельтаБаланса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дельта баланса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

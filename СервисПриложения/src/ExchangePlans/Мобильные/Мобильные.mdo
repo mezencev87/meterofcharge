@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a8acb44-434a-4a93-8f16-9f26eac3300f" thisNode="28a05020-1596-4b03-aba2-9da3f9a0b3eb">
+  <producedTypes>
+    <objectType typeId="931eb189-a9bc-4405-a8dd-bbbeb7ad1d78" valueTypeId="dde8155f-c0b2-45b5-aee7-5bc284dbdd7d"/>
+    <refType typeId="b17bedf4-227c-4d4f-aa52-cc65809d20a5" valueTypeId="3997a1e4-3480-4111-896f-60f8e81f2bb6"/>
+    <selectionType typeId="6e894b43-215e-43e9-8cb9-94ebe4182d32" valueTypeId="71d00c3c-a92b-4349-b5c4-e92da9378be9"/>
+    <listType typeId="93f191e9-9f0f-40d9-a1ba-d3d1e291d44d" valueTypeId="e80150a0-70ac-4d5a-ae9b-6f9d4ce9b106"/>
+    <managerType typeId="05833d3e-940d-4e24-854e-234550c6e039" valueTypeId="65a81bdf-d982-4711-b67f-7d32ecfe9ca9"/>
+  </producedTypes>
+  <name>Мобильные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные устройства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Мобильные.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Мобильные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Мобильное устройство</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>40</descriptionLength>
+  <content>
+    <mdObject>Catalog.НаборыУслуг</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Адреса</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Услуги</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Абоненты</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.Расчет</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Поставщики</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РеестрУслугПоПоставщикам</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ОтметкиСчетчика</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.Мобильные.Form.ФормаУзла</defaultObjectForm>
+  <attributes uuid="4fbd717a-1089-435d-98a7-fd39c39763d5">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Абоненты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b32c0676-9fb4-4f77-8e9c-12d445f940b2">
+    <name>ИдентификаторПодписчикаДоставляемыхУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор подписчика доставляемых уведомлений</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8f4d9ce6-d231-4fe2-bb03-21a95e8f1c77">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

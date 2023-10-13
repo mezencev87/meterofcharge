@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6eb0fd6-c336-4d4e-88cb-1b110933ca0a">
+  <producedTypes>
+    <managerType typeId="85609cba-9f95-4987-9799-7cbebc5ee819" valueTypeId="5c1fc3fa-5aaa-4b0f-8c2c-cb58f441ee22"/>
+    <valueManagerType typeId="359901b8-0e78-4e66-9b30-2cc41cbee0ec" valueTypeId="f8569bda-e3c1-4cd3-9f0d-3ca10e694270"/>
+    <valueKeyType typeId="971945e0-77d9-49ac-8334-b14bf4e4956a" valueTypeId="fdb64333-1184-4c14-b47b-7aeaf7bdf4f0"/>
+  </producedTypes>
+  <name>ВремяУтреннихУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время утренних уведомлений</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

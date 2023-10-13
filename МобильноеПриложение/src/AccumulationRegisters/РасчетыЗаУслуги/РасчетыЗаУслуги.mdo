@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a451aaa7-7937-4a70-9b78-457dbd7f3c30">
+  <producedTypes>
+    <selectionType typeId="79f1e73f-04b1-412c-9984-52243d4d7831" valueTypeId="ee8ebbba-a77d-482d-bcae-eee674fe86ab"/>
+    <listType typeId="44f655ed-f638-4443-9ee8-cfe7cbb30ed9" valueTypeId="55b750f6-8681-4e24-84b2-4b2f7a223c21"/>
+    <managerType typeId="daaa4fe6-e6f7-4872-9d76-c8b6cc35e048" valueTypeId="43a96020-6860-402e-a229-69f2d390da26"/>
+    <recordSetType typeId="688e1fc9-a9dd-42dd-8890-6554addc46bd" valueTypeId="20b8a8e7-fedc-45d8-8a15-681474e3dc8a"/>
+    <recordKeyType typeId="6db7c77d-09b6-4317-b3c7-c9a1d5f79613" valueTypeId="845b4c17-3c66-4d9d-9a21-51e65f87b37c"/>
+    <recordType typeId="392de84d-c7d7-4492-ba94-16aecd403084" valueTypeId="628a9be3-cf17-42a4-b629-7de9fc83c147"/>
+  </producedTypes>
+  <name>РасчетыЗаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты за услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="94efeea1-24aa-4037-98ad-9f8e07b3c227">
+    <name>Показания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧРГ=</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧРГ=</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8013ebb0-ccf2-4948-b6ab-3d0ac3100f02">
+    <name>Баланс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баланс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="cffccb5b-90c5-499a-a2a1-b123668dc09d">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="19396dd2-2d46-4525-a4f2-b959bd67d188">
+    <name>НаборУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор услуг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

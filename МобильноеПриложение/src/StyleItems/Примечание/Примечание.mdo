@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="008918d9-d115-4d96-95c8-49e898fa314b">
+  <name>Примечание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Примечание</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+      <scale>85</scale>
+    </value>
+  </value>
+</mdclass:StyleItem>

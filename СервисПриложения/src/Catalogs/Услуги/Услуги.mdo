@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69126b44-4326-484a-875c-51cff06a5354">
+  <producedTypes>
+    <objectType typeId="f3c8d0a1-b1ca-4cfe-aead-35f70a00c564" valueTypeId="e14e93e0-f446-440d-9a6f-72226dd23801"/>
+    <refType typeId="056e4c63-7823-4fbe-a590-dcc5896d38a4" valueTypeId="a8746deb-b46a-4a3c-b4e6-5177921e5911"/>
+    <selectionType typeId="12d109f7-4041-4593-8b8c-3d3117bf1835" valueTypeId="a1b8f284-a38f-45df-8d3d-0cfd3dc3eae0"/>
+    <listType typeId="a550f998-a868-435d-8749-e00372aa03df" valueTypeId="41d14398-e7ac-4a20-a0f9-27af72eb6499"/>
+    <managerType typeId="f4f1b2a9-7d63-4576-90be-207356709aa6" valueTypeId="9ec78ec1-41f6-42dc-be3e-ded4da270590"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Услуги.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Услуги.StandardAttribute.Description</inputByString>
+  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Услуга</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Услуги.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Услуги.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b9d01b10-e353-4f4e-b767-7a304c20cf3b">
+    <name>ИмяКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя картинки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c60dba7-6228-40fd-b38b-a51900ed1c19">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="108c7014-f479-430b-b4b4-083553ee4871">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dabca017-6c69-4176-ad32-c209c9fbb289">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
